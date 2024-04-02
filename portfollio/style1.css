@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+a{
+    color: rgb(246, 244, 244);
+    text-decoration: line-through;
+    font-style: italic;
+}
+.ishuu{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://i.pinimg.com/originals/9f/16/f0/9f16f03a8bbf1a66ea2d89221b1d06d6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -10;
+}
+#Home{ 
+     color: azure;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+nav{
+    width: 100%;
+    padding: 1rem 5%;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.navLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.9rem;
+    font-family: sans-serif;
+
+}
+.navLeft > h1{
+    font-size: 2rem;
+    color: white;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,red);
+
+}
+.navLeft > img{
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    
+}
